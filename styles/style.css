@@ -164,10 +164,6 @@ h3 {
   min-height: 596px;
 }
 
-.card-link {
-  height: 100%;
-}
-
 .card {
   position: relative;
   z-index: -2;
@@ -180,6 +176,7 @@ h3 {
 
 .card-link {
   text-decoration: none;
+  height: 100%;
 }
 
 .card__title {
@@ -197,21 +194,21 @@ h3 {
   background-image: url(../images/card-lot-01.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; 
+  background-size: cover;
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; 
+  background-size: cover;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; 
+  background-size: cover;
 }
 
 .lots__look-more-link {
