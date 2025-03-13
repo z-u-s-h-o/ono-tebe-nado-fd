@@ -40,6 +40,10 @@ h3 {
   height: 105px;
 }
 
+.header__menu {
+  line-height: 101%;
+}
+
 .header__menu-list {
   display: flex;
   gap: 33px;
@@ -60,6 +64,7 @@ h3 {
 
 .address {
   min-width: 240px;
+  min-height: 98px;
   line-height: 24.3px;
 }
 
@@ -266,7 +271,47 @@ h3 {
 /*  footer block */
 
 .footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: start;
   width: 100%;
-  height: 180px;
-  background-color: rgb(251, 187, 225);
+  font-size: 18px;
+  padding: 0 50px 82px;
+}
+
+.footer__menu {
+  justify-self: center;
+}
+
+.footer__social-list {
+  justify-self: end;
+}
+
+.footer__menu-link {
+  text-underline-offset: 4px;
+}
+
+.footer__menu-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
+  line-height: 120%;
+}
+
+.footer__social-list {
+  display: flex;
+  width: 240px;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.footer__social-link {
+  display: block;
+  width: 48px;
+  height: 48px;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
 }
