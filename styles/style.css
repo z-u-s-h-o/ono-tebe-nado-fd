@@ -71,7 +71,7 @@ h3 {
 .address {
   min-width: 240px;
   min-height: 98px;
-  line-height: 24.3px;
+  line-height: 136%;
 }
 
 .header__address {
@@ -259,7 +259,7 @@ h3 {
   display: flex;
   justify-content: start;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 120%;
 }
 
 .about__text-indented {
@@ -290,10 +290,6 @@ h3 {
   justify-self: center;
 }
 
-.footer__social-list {
-  justify-self: end;
-}
-
 .footer__menu-link {
   text-underline-offset: 4px;
 }
@@ -315,6 +311,7 @@ h3 {
   justify-content: space-between;
   width: 240px;
   list-style: none;
+  justify-self: end;
 }
 
 .footer__social-link {
