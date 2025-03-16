@@ -28,7 +28,7 @@ h3 {
 
 .address {
   min-width: 240px;
-  line-height: 136%;
+  line-height: 134%;
 }
 
 .communication__link {
@@ -110,6 +110,7 @@ h3 {
 .aligned-text {
   display: block;
   width: 100%;
+  line-height: 117%;
 }
 
 .aligned-text_center {
@@ -197,6 +198,7 @@ h3 {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
+  line-height: 120%;
 }
 
 .card__text {
@@ -304,7 +306,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  line-height: 120%;
+  line-height: 116%;
   list-style: none;
 }
 
