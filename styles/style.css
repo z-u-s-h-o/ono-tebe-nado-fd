@@ -238,7 +238,7 @@ h3 {
   gap: 25px;
   width: 1052px;
   margin: auto;
-  margin-bottom: 157px;
+  margin-bottom: 182px;
 }
 
 .about__logo-background {
@@ -264,8 +264,8 @@ h3 {
 
 .about__text {
   display: flex;
-  justify-content: start;
-  margin-bottom: 24px;
+  flex-direction: column;
+  gap: 24px;
   font-size: 20px;
   line-height: 120%;
 }
